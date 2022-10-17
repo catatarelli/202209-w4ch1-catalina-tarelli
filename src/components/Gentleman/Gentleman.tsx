@@ -10,7 +10,7 @@ const Gentleman = ({
   gentleman: { name, picture, profession, status, twitter, alternativeText },
 }: GentlemanProps): JSX.Element => {
   return (
-    <>
+    <li className="gentleman">
       <div className="gentleman__avatar-container">
         <img
           className="gentleman__avatar"
@@ -34,9 +34,9 @@ const Gentleman = ({
           </li>
         </ul>
       </div>
-      <Button />
+      <i className="icon gentleman__icon fas fa-check"></i>
       <i className="icon gentleman__icon gentleman__icon--delete fas fa-times"></i>
-    </>
+    </li>
   );
 };
 
