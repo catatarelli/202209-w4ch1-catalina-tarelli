@@ -4,7 +4,6 @@
 
 - An Info component that is provided with total number of selected gentlemen
 - A Button component that is provided with:
-  - "Marcar todos"
   - An action that selects all gentlemen
 
 ## Info
