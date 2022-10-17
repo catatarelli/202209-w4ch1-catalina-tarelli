@@ -1,5 +1,4 @@
 import GentlemanStructure from "../../gentlemen/types";
-import Button from "../Button/Button";
 import "./Gentleman.css";
 
 interface GentlemanProps {
