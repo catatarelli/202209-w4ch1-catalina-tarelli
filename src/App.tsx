@@ -1,7 +1,8 @@
 import "./App.css";
+import Button from "./components/Button/Button";
 
-function App() {
-  return <div className="app"></div>;
-}
+const App = () => {
+  return <Button />;
+};
 
 export default App;
