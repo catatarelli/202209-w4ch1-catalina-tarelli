@@ -1,8 +1,9 @@
 import "./App.css";
-import Button from "./components/Button/Button";
+import Gentleman from "./components/Gentleman/Gentleman";
+import gentlemen from "./gentlemen/gentlemen";
 
 const App = () => {
-  return <Button />;
+  return <Gentleman gentleman={gentlemen[0]} />;
 };
 
 export default App;
