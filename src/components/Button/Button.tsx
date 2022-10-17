@@ -1,7 +1,17 @@
 import "./Button.css";
 
-const Button = (): JSX.Element => {
-  return <button className="button"></button>;
+interface ButtonProps {
+  text: string;
+  className: string;
+  action: () => void;
+}
+
+const Button = ({ text, className, action }: ButtonProps): JSX.Element => {
+  return (
+    <button className={`button ${className}`} onClick={action}>
+      {text}
+    </button>
+  );
 };
 
 export default Button;
